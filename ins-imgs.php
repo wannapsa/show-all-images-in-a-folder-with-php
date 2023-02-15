@@ -2,7 +2,8 @@
 # To prevent browser error output
 header('Content-Type: text/javascript; charset=UTF-8');
 
-echo 'Hello, World!';
+echo 'Hello, World!' \n";
+
 
 # Path to image folder
 $imageFolder = 'img/';

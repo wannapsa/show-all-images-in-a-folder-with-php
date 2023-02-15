@@ -2,9 +2,6 @@
 # To prevent browser error output
 header('Content-Type: text/javascript; charset=UTF-8');
 
-echo 'Hello, World!' \n";
-
-
 # Path to image folder
 $imageFolder = 'img/';
 
@@ -68,4 +65,5 @@ writeHtml('<link rel="stylesheet" type="text/css" href="ins-imgs.css">');
 # Convert HTML to JS
 function writeHtml($html) {
     echo "document.write('" . $html . "');\n";
+    echo "Hello, World!";\n";
 }
